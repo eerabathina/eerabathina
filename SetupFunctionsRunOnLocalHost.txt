@@ -1,0 +1,8 @@
+Install pip package through command
+pip install functions-framework
+
+execute main.py
+functions-framework --target=main --debug
+
+Testing localhost function using below syntax
+curl -X POST http://localhost:8080 -H "Content-Type: application/json" -d '{"key":"value"}'
